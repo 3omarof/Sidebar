@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Toggle</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="side-bar-with-toggle">
+      <aside>
+        <div class="side-logo">
+          <h1>ELEVOO</h1>
+        </div>
+        <div class="side-links">
+          <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-user"></i> Profile</li>
+            <li><i class="fas fa-envelope"></i> Messages</li>
+            <li><i class="fas fa-cog"></i> Settings</li>
+            <li><i class="fas fa-sign-out-alt"></i> Logout</li>
+          </ul>
+        </div>
+      </aside>
+      <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+    </div>
+
+    <div class="container">
+      <div class="content">Hello <span> Elevoo</span>!!</div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
